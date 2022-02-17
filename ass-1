@@ -1,14 +1,11 @@
 n=int(input('enter no:'))
-sum1=0
-sum2=0
- for i in range(1,n+1):
-     if i%2==1:
-         sum1=sum1+i 
-     else:
-         sum2=sum2+i 
-print('oddsum is:',sum1)
-print('evensum is:',sum2)
+total=(n*(n+1))/2
+sum=0
+for i in range(1,n+1,+2):
+    sum=sum+i 
+print('oddsum:',sum)
+print('even sum:',total-sum)
 OUTPUT:
-enter no:3
+enter no:4
 oddsum is:4
-evensum is:2
+evensum is:6
