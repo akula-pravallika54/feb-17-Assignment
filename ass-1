@@ -1,0 +1,14 @@
+n=int(input('enter no:'))
+sum1=0
+sum2=0
+ for i in range(1,n+1):
+     if i%2==1:
+         OS=sum1+i 
+     else:
+         ES=sum2+i 
+print('oddsum is:',OS)
+print('evensum is:',ES)
+OUTPUT:
+enter no:3
+oddsum is:4
+evensum is:2
